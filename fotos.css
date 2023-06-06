@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@100&display=swap');
+
+
+
+*{     
+    margin: 0;
+    padding: 0;    
+    list-style: none;
+    text-decoration: none;
+    width:  100%;
+    
+    
+    
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+
+
+}
+
+#fundo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+        
+    
+    
+    background-image: url(wallpapper-fotos.jpg);
+    background-size: cover;
+
+    
+}
+
+
+
+.fotos {
+    width: 400px;
+    height: 600px;
+    background-position: 50% 50%;
+    border-radius: 5px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-size: cover;
+    margin-top: 50px;
+    transition: 1s;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 20px;
+    
+   
+   
+
+
+}
+
+
+
+.bat{
+    
+    background-image: url(https://epipoca.com.br/wp-content/uploads/2022/11/the-batman-hbo-max.jpg);
+}
+
+
+
+.cat {
+    background-image: url(https://coolhdwall.com/storage/2203/catwoman-selina-kyle-the-batman-2022-4k-phone-wallpaper-2160x3840-48.jpg);
+
+    
+}
+
+
+.charada{
+    background-image: url(Charada.webp);
+}
+
+.pinguim {
+    background-image: url(pinguim.webp);
+
+}
+
+.falcone {
+
+    background-image: url(falcone.webp);
+}
+
+.jim {
+
+    background-image: url(Gordon.jpg);
+}
+
+.car{
+
+    background-image: url(the-batman-s-original-car-vision-differs-slightly-from-the-batmobile-in-reality-183303_1.avif);
+}
+
+.car:hover{
+    background-image: url(the-batman-s-original-car-vision-differs-slightly-from-the-batmobile-in-reality-183303_1.avif);
+    width: 170%;
+    transform: scale(1.02);
+    margin-bottom: 20px;
+}
+
+.bm{
+    background-image: url(batmoto.jpeg);
+    
+}
+.bm:hover{
+    background-image: url(batmoto.jpeg);
+    width: 120%;
+   margin-bottom:30px;
+   margin-right:100px;
+}
+
+.gotham {
+    background-image: url(gothan.jpg);
+   
+}
+.gotham:hover{
+
+    width: 170%;
+    margin-bottom: 30px;
+
+}
+
+.fotos:hover{
+   
+
+    scale: 1.04;
+}
+
+
+@media (max-width: 768px){
+
+#fundo{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-size: cover;
+    background-image: url(wallpapper-fotos.jpg);
+    
+ 
+}
+ 
+ .fotos{
+    
+    object-fit: cover;
+    
+   
+    margin-left: 32px;
+     width: 300px;
+     height: 600px;
+ }
+
+}
